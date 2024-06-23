@@ -1357,7 +1357,7 @@ no_captures$lat <- as.numeric(no_captures$lat)
 no_captures$long <- as.numeric(no_captures$long)
 
 ## ~~~~~~ Get base-map & Build scatter pie map ~~~~~~ 
-register_google(key = "AIzaSyA2B2v2L1kWVCJh0pSU_JEWcolN0dbiT7s") # Register Google API to access base maps 
+register_google(key = "...") # Register Google API to access base maps 
 basemap <- get_map(location = c(left = -62.0990, bottom = -16.3850, right = -61.8740, top = -16.3050), 
                    maptype = "satellite", source = "google", scale = 4) # Get base map
 basemap_ref <- get_map(location = c(left = -62.0990, bottom = -16.3850, right = -61.8740, top = -16.3050), 
